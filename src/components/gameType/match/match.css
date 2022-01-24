@@ -1,0 +1,94 @@
+/* Container holding the image and the text */
+.boardContainer {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-top: 10vh;
+}
+
+.board {
+    max-width: 100vw;
+    width: 100%;
+}
+
+/* Centered text */
+.centeredLists {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.questionText {
+    font-family: Bodo;
+    font-weight: black;
+    font-size: calc(10px + 5vmin);
+}
+
+.headingText {
+    font-size: calc(15px + 7vmin);
+    font-family: Bodo;
+    font-weight: black;
+    margin-top: -10vh;
+    padding: 2vh;
+}
+
+.questionObject {
+    max-width: calc(10px + 5vmin);
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Bodo';
+    src: local('Bodo'), url(./fonts/BodoAmat.otf) format('opentype');
+}
+
+/* .lineAnimation {
+    -- moz - transform: rotate(" + angle + "deg);
+    -webkit - transform: rotate(" + angle + "deg);
+    -o - transform: rotate(" + angle + "deg);
+    -ms - transform: rotate(" + angle + "deg);
+    transform: rotate(" + angle + "deg);
+    
+
+} */
+/*base code*/
+
+
+/*the animation definition*/
+.wobble {
+    color: red;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .board {
+        max-width: 60vw;
+        width: 100%;
+
+    }
+
+    .boardContainer {
+        position: relative;
+        text-align: center;
+        color: black;
+        margin-top: 13vh;
+    }
+
+}
+
+@media only screen and (max-height: 700px) {
+    .board {
+        max-width: 60vw;
+        width: 100%;
+
+    }
+
+    .boardContainer {
+        position: relative;
+        text-align: center;
+        color: black;
+        margin-top: 13vh;
+    }
+
+}

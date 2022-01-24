@@ -1,0 +1,108 @@
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+.draggableImage {
+  /* height:11vh; */
+  /* margin-top: -10vh;
+  margin-bottom: 6vh; */
+  max-width: 200px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .draggableImage {
+    /* height:11vh; */
+    /* margin-top: -10vh;
+    margin-bottom: 6vh; */
+    max-width: 50px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .draggableImage {
+    /* height:11vh; */
+    /* margin-top: -10vh;
+    margin-bottom: 6vh; */
+    max-width: 50px;
+    width: 100%;
+  }
+}
+
+.centered {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.thought {
+  display: flex;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 50%;
+  height: 10%;
+  max-width: 800px;
+  border-radius: 30px;
+  min-width: 200px;
+  min-height: 40px;
+  position: absolute;
+  top: 13vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.thought:before, .thought:after {
+  content: "";
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.thought:before {
+  width: 44px;
+  height: 44px;
+  top: -12px;
+  left: 28px;
+  box-shadow: -50px 30px 0 -12px #fff;
+}
+
+.thought:after {
+  bottom: -10px;
+  right: 26px;
+  width: 30px;
+  height: 30px;
+  box-shadow: 40px -34px 0 0 #fff, -28px -6px 0 -2px #fff, -24px 17px 0 -6px #fff, -5px 25px 0 -10px #fff;
+}

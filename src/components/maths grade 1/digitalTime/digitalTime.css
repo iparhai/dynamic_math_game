@@ -1,0 +1,30 @@
+.clock {
+    max-width: 18vw;
+    width: 100%;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.font {
+    font-size: calc(15px + 12vmin);
+    font-family: Bodo;
+    font-weight: white;
+    margin-top: 2vh;
+    padding: 2vh;
+}
+
+@font-face {
+    font-family: 'Bodo';
+    src: local('Bodo'), url(./fonts/BodoAmat.otf) format('opentype');
+}

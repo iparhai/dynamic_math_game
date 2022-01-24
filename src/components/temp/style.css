@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+.main{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* background: url('./images/51833.jpg');
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+.holder1, .holder2, .holder3{
+    border: 2px solid green;
+    width: 33.33%;
+    height:400px;
+    position: relative;
+}
+.holder1 img{
+    width :15%;
+}
+.img1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: -1;
+}
+.img2{
+    position: absolute;
+    top:53%;
+    left: 13%;
+    z-index: 1;
+}
+.img3{
+    position: absolute;
+    top:57%;
+    left: 25%;
+}
+.img4{
+    position: absolute;
+    top:71%;
+    left: 32%;
+    z-index: 1;
+}
+.img5{
+    position: absolute;
+    top:23%;
+    left: 45%;
+}
+/* Holder 2 CSS*/
+.holder2 img{
+    width: 40%;
+}
+.imgMount1{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
+}
+.imgMount2{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.imgMount3{
+    position: absolute;
+    top: 47%;
+    left: 35%;
+    z-index: -1;
+}
