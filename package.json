@@ -1,8 +1,8 @@
 {
   "name": "math-app",
   "version": "0.8.0",
-  "private": true,
-  "homepage": "https://iparhai.github.io/urdu_addition_counting_objects",
+  "private": false,
+  "homepage": "https://iparhai.github.io/dynamic_math_game",
   "dependencies": {
     "animate.css": "^4.1.1",
     "axios": "^0.21.4",
