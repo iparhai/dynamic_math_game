@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dynamic_math_game/precache-manifest.a4f4cf93eeb3f6c277c20a5144e9635c.js"
+  "/urdu_addition_counting_objects/precache-manifest.c8754f2ae0fa338fbf9c95353d972bd8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/dynamic_math_game/index.html", {
+workbox.routing.registerNavigationRoute("/urdu_addition_counting_objects/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
